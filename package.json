@@ -1,0 +1,37 @@
+{
+  "name": "megn-setup",
+  "version": "1.0.0",
+  "description": "Express graphql starter with auth",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql-middleware": "^4.0.2",
+    "graphql-shield": "^7.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.7",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "apollo-server-express": "^2.6.4",
+    "body-parser": "^1.19.0",
+    "graphql": "^14.4.1",
+    "graphql-tools": "^4.0.5",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.1",
+    "apollo-server": "^2.6.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon src/app.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC"
+}
